@@ -71,8 +71,7 @@ class HTMLtoDataURLSerializer extends HTMLElement {
    * To render content, set the 'data-settings' attribute to a JSON representation of a 'MetaData' object. If no settings are provided,
    * the component will render the HTML into a 64x64 cell. 
    * 
-   * Set the 'data-content' attribute to a URI-encoded version of a JSON-encoded string containing the content. I know that sound complicated, 
-   * but when using attributes, strings are king, and quotes frustrate things if not properly handled. 
+   * Set the 'data-content' attribute to a JSON-encoded string containing the content. 
    * 
    * @param data MetaData to describe what to do.
    * @param content Content to render
